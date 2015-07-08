@@ -51,3 +51,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* Selection Colors */
+::selection 	 	{background: rgb(255,255,158);}
+::-moz-selection 	{background: rgb(255,255,158);}
+img::selection 		{background: transparent;}
+img::-moz-selection	{background: transparent;}
+body {-webkit-tap-highlight-color: rgb(255,255,158);}
