@@ -58,3 +58,18 @@ table {
 img::selection 		{background: transparent;}
 img::-moz-selection	{background: transparent;}
 body {-webkit-tap-highlight-color: rgb(255,255,158);}
+
+/* Oh! Typography :) */
+	/* Headings */
+h1, .big-big{
+	font-size:55px;
+}
+h2,.big-medium{
+	font-size:40px;
+}
+h3, .big-small{
+	font-size:28px;
+}
+h4,h5,h6{
+	font-size:22px;
+}
